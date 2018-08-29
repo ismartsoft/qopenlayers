@@ -41,3 +41,8 @@ target_wrapper.*
 
 # QtCreator CMake
 CMakeLists.txt.user*
+
+/docs/echarts
+/docs/openlayers
+/bin
+*.user*

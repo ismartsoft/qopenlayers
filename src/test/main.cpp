@@ -4,6 +4,7 @@
 #include <QFile>
 #include <QDebug>
 #include "MainWindow.h"
+#include "qol_global.h"
 
 int main(int argc, char **argv)
 {
@@ -15,13 +16,13 @@ int main(int argc, char **argv)
 
     QApplication app(argc, argv);
     QApplication::setFont(QFont("Microsoft Yahei", 9));
-    QApplication::setWindowIcon(QIcon(":/image/app.png"));
+    QApplication::setWindowIcon(QIcon(":/qol/image/app.png"));
     QCoreApplication::setOrganizationName("Smartsoft");
-    QCoreApplication::setApplicationName("XXX");
+    QCoreApplication::setApplicationName("QOL Demo");
     QCoreApplication::setApplicationVersion(QString("1.0.0"));
 
     // stylesheet
-    QFile file(":/qss/dark.qss");
+    QFile file(":/qol/qss/dark.qss");
     if (!file.open(QIODevice::ReadOnly)) {
         return -1;
     }
@@ -29,8 +30,12 @@ int main(int argc, char **argv)
 
     // translator
 
-    QApplication::setApplicationDisplayName(QObject::tr("XXX"));
+    QApplication::setApplicationDisplayName(QObject::tr("QOL Demo"));
 
+    //
+    QOLMain::instance()->init();
+
+    //
     MainWindow mainWindow;
     if (!mainWindow.init()) {
         return -1;
@@ -38,5 +43,9 @@ int main(int argc, char **argv)
 
     mainWindow.show();
 
-    return app.exec();
+    int result = app.exec();
+
+    QOLMain::releaseInstance();
+
+    return result;
 }

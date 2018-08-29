@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    background: "#666"
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.mouse-pos-wrapper {
+    color: #0028aa;
+    position: absolute;
+    right: 100px;
+    bottom: 6px;
+    z-index: 999;
+    font-family: "Microsoft Yahei";
+}
+
+.ol-rotate {
+    right: 40px;
+}
+
+.ol-scale-line {
+    left: 100px;
+}
+
+.ol-zoomslider {
+    top: 110px;
+    left: 8px;
+    background: rgba(64, 64, 128, 0.2);
+}
+
+.ol-zoomslider:hover {
+    background: rgba(64, 64, 128, 0.4);
+}

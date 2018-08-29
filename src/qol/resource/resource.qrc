@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/image/system">
+    <qresource prefix="/qol/image/system">
         <file alias="arrow_down.png">image/system/arrow_down.png</file>
         <file alias="branch-closed.png">image/system/branch-closed.png</file>
         <file alias="branch-closed-dark.png">image/system/branch-closed-dark.png</file>
@@ -50,15 +50,26 @@
         <file alias="vline.png">image/system/vline.png</file>
         <file alias="vline-dark.png">image/system/vline-dark.png</file>
     </qresource>
-    <qresource prefix="/qss">
+    <qresource prefix="/qol/qss">
         <file alias="dark.qss">qss/dark.qss</file>
         <file alias="light.qss">qss/light.qss</file>
     </qresource>
-    <qresource prefix="/lang"/>
-    <qresource prefix="/image">
+    <qresource prefix="/qol/lang"/>
+    <qresource prefix="/qol/image">
         <file alias="app.png">image/app.png</file>
     </qresource>
-    <qresource prefix="/other">
-        <file alias="protocol.json">other/protocol.json</file>
+    <qresource prefix="/qol/html">
+        <file alias="index.html">html/index.html</file>
+        <file alias="main.js">html/main.js</file>
+        <file alias="main.css">html/main.css</file>
+        <file alias="qwebchannel.js">html/qwebchannel.js</file>
+        <file alias="index.css">html/css/index.css</file>
+        <file alias="jquery-3.3.1.min.js">html/jquery/jquery-3.3.1.min.js</file>
+        <file alias="solar.min.css">html/css/bootswatch/solar.min.css</file>
+        <file alias="yeti.min.css">html/css/bootswatch/yeti.min.css</file>
+        <file alias="ol.js">html/ol.js</file>
+    </qresource>
+    <qresource prefix="/qol/html/ol">
+        <file alias="ol.css">html/ol/ol.css</file>
     </qresource>
 </RCC>

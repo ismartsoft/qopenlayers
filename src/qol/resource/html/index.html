@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OpenLayers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootswatch/solar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="ol/ol.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="qwebchannel.js"></script>
+    <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="ol.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <div id="mouse-pos" class="mouse-pos-wrapper">
+        <div class="map-mouse-pos"></div>
+    </div>
+    <script type="text/javascript">
+        window.onload = function () {
+            createDefaultChannel(function () {
+                loadMap(qol.mapDir)
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -2,12 +2,6 @@
 #define CENTRALWIDGET_H
 
 #include <QWidget>
-#include <memory>
-
-namespace Icd {
-class Table;
-typedef std::shared_ptr<Table> TablePtr;
-}
 
 // class CentralWidget
 
@@ -22,10 +16,6 @@ signals:
 public slots:
 
 private:
-    bool init();
-
-private:
-    Icd::TablePtr table_;
 };
 
 #endif // CENTRALWIDGET_H
