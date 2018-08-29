@@ -1,0 +1,64 @@
+<RCC>
+    <qresource prefix="/image/system">
+        <file alias="arrow_down.png">image/system/arrow_down.png</file>
+        <file alias="branch-closed.png">image/system/branch-closed.png</file>
+        <file alias="branch-closed-dark.png">image/system/branch-closed-dark.png</file>
+        <file alias="branch-end.png">image/system/branch-end.png</file>
+        <file alias="branch-end-dark.png">image/system/branch-end-dark.png</file>
+        <file alias="branch-more.png">image/system/branch-more.png</file>
+        <file alias="branch-more-dark.png">image/system/branch-more-dark.png</file>
+        <file alias="branch-open.png">image/system/branch-open.png</file>
+        <file alias="branch-open-dark.png">image/system/branch-open-dark.png</file>
+        <file alias="checkbox_checked.png">image/system/checkbox_checked.png</file>
+        <file alias="checkbox_checked_hover.png">image/system/checkbox_checked_hover.png</file>
+        <file alias="checkbox_checked_pressed.png">image/system/checkbox_checked_pressed.png</file>
+        <file alias="checkbox_unchecked.png">image/system/checkbox_unchecked.png</file>
+        <file alias="checkbox_unchecked_hover.png">image/system/checkbox_unchecked_hover.png</file>
+        <file alias="checkbox_unchecked_pressed.png">image/system/checkbox_unchecked_pressed.png</file>
+        <file alias="chkbox-chkd-disabled.png">image/system/chkbox-chkd-disabled.png</file>
+        <file alias="chkbox-chkd-hover.png">image/system/chkbox-chkd-hover.png</file>
+        <file alias="chkbox-chkd-normal.png">image/system/chkbox-chkd-normal.png</file>
+        <file alias="chkbox-chkd-pressed.png">image/system/chkbox-chkd-pressed.png</file>
+        <file alias="chkbox-part-disabled.png">image/system/chkbox-part-disabled.png</file>
+        <file alias="chkbox-part-hover.png">image/system/chkbox-part-hover.png</file>
+        <file alias="chkbox-part-normal.png">image/system/chkbox-part-normal.png</file>
+        <file alias="chkbox-part-pressed.png">image/system/chkbox-part-pressed.png</file>
+        <file alias="chkbox-uchkd-disabled.png">image/system/chkbox-uchkd-disabled.png</file>
+        <file alias="chkbox-uchkd-hover.png">image/system/chkbox-uchkd-hover.png</file>
+        <file alias="chkbox-uchkd-normal.png">image/system/chkbox-uchkd-normal.png</file>
+        <file alias="chkbox-uchkd-pressed.png">image/system/chkbox-uchkd-pressed.png</file>
+        <file alias="down_arrow.png">image/system/down_arrow.png</file>
+        <file alias="down_arrow_disabled.png">image/system/down_arrow_disabled.png</file>
+        <file alias="radiobtn-chkd-disabled.png">image/system/radiobtn-chkd-disabled.png</file>
+        <file alias="radiobtn-chkd-hover.png">image/system/radiobtn-chkd-hover.png</file>
+        <file alias="radiobtn-chkd-normal.png">image/system/radiobtn-chkd-normal.png</file>
+        <file alias="radiobtn-chkd-pressed.png">image/system/radiobtn-chkd-pressed.png</file>
+        <file alias="radiobtn-uchkd-disabled.png">image/system/radiobtn-uchkd-disabled.png</file>
+        <file alias="radiobtn-uchkd-hover.png">image/system/radiobtn-uchkd-hover.png</file>
+        <file alias="radiobtn-uchkd-normal.png">image/system/radiobtn-uchkd-normal.png</file>
+        <file alias="radiobtn-uchkd-pressed.png">image/system/radiobtn-uchkd-pressed.png</file>
+        <file alias="spindown.png">image/system/spindown.png</file>
+        <file alias="spindown_hover.png">image/system/spindown_hover.png</file>
+        <file alias="spindown_off.png">image/system/spindown_off.png</file>
+        <file alias="spindown_pressed.png">image/system/spindown_pressed.png</file>
+        <file alias="spinup.png">image/system/spinup.png</file>
+        <file alias="spinup_hover.png">image/system/spinup_hover.png</file>
+        <file alias="spinup_off.png">image/system/spinup_off.png</file>
+        <file alias="spinup_pressed.png">image/system/spinup_pressed.png</file>
+        <file alias="up_arrow.png">image/system/up_arrow.png</file>
+        <file alias="up_arrow_disabled.png">image/system/up_arrow_disabled.png</file>
+        <file alias="vline.png">image/system/vline.png</file>
+        <file alias="vline-dark.png">image/system/vline-dark.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="dark.qss">qss/dark.qss</file>
+        <file alias="light.qss">qss/light.qss</file>
+    </qresource>
+    <qresource prefix="/lang"/>
+    <qresource prefix="/image">
+        <file alias="app.png">image/app.png</file>
+    </qresource>
+    <qresource prefix="/other">
+        <file alias="protocol.json">other/protocol.json</file>
+    </qresource>
+</RCC>
