@@ -15,6 +15,6 @@ CentralWidget::CentralWidget(QWidget *parent)
     // -- init --
 
     // mapDir
-    QOLMain::instance()->setMapDir("C:/Users/iclosure/Documents/GitHub/yunlan-yanshan/_alllayers");
+    QOLMain::instance()->setMapDir("C:/Users/iclosure/Documents/GitHub/map/_alllayers");
     //
 }

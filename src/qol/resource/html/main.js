@@ -123,3 +123,36 @@ function resetMap() {
     duration: 300
   });
 }
+
+function focusPoints() {
+  //
+}
+
+function focusSource(source) {
+  if (!source) {
+    return;
+  }
+  var features = source.getFeatures();
+  if (features.length === 0) {
+    return;
+  }
+  var feature0 = features[0];
+  geometry = feature0.getGeometry();
+  if (!geometry) {
+    return;
+  }
+  var coordinates = geometry.getCoordinates();
+  if (coordinates.length === 0) {
+    return;
+  }
+  map.getView().fit(geometry, {
+    duration: 300,
+    constrainResolution: false,
+    padding: [50, 50, 50, 50]
+  });
+}
+
+$("#user-toolbar").toolbar({
+  content: "#user-toolbar-options",
+  position: "top"
+});
