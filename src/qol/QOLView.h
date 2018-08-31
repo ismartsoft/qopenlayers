@@ -35,6 +35,8 @@ signals:
     void maxZoomChanged(int value);
     void zoomChanged(int value);
 
+    void focusPoints();
+
 public slots:
     void setCenterLat(double value);
     void setCenterLon(double value);

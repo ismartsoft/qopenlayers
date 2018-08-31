@@ -114,6 +114,7 @@ function loadMap(mapDir) {
   window.map = map;
 
   resetMap();
+  binding();
 }
 
 function resetMap() {
@@ -122,6 +123,12 @@ function resetMap() {
     zoom: qolview.zoom,
     duration: 300
   });
+}
+
+function binding() {
+  if (hasQt()) {
+    qolview.focusPoints.connect(focusPoints);
+  }
 }
 
 function focusPoints() {

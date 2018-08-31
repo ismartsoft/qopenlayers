@@ -12,6 +12,21 @@ CentralWidget::CentralWidget(QWidget *parent)
     QOL::View *olView = new QOL::View(this);
     layoutMain->addWidget(olView);
 
+    QHBoxLayout *layoutBottom = new QHBoxLayout();
+    layoutMain->addLayout(layoutBottom);
+
+    layoutBottom->addStretch();
+
+    QPushButton *buttonFocus = new QPushButton(tr("Focus points"), this);
+    buttonFocus->setFixedWidth(100);
+    layoutBottom->addWidget(buttonFocus);
+
+    layoutBottom->addStretch();
+
+    connect(buttonFocus, &QPushButton::clicked, this, [=](){
+        olView->focusPoints();
+    });
+
     // -- init --
 
     // mapDir
